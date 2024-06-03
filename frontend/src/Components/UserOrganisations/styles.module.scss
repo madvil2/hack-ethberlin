@@ -1,0 +1,68 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileTitle {
+  align-self: flex-start;
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  width: 100%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+  }
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin: 0 0 -25px 70px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 40px;
+}
+
+.school {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.id {
+  font-size: 14px;
+  color: #000000;
+}

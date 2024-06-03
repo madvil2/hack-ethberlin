@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+}
+
+.profileCard {
+  background: white;
+  border-radius: 10px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  color: black;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #333;
+  }
+}
+
+.profileImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+.ethereumAddress {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  background: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.profileTitle {
+  align-self: flex-start;
+  font-size: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+  width: 100%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #e0e0e0;
+  }
+}
+
+.logoutButton {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+}
