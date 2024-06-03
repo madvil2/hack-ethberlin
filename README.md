@@ -32,10 +32,6 @@
 
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 We would like to thank the organizers of HackETHBerlin for the opportunity to participate and all the mentors for their guidance and support.
