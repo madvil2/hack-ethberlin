@@ -20,7 +20,6 @@
 
 ### Frontend
 - **React**
-- **Web3auth**
 
 ### Blockchain Technology
 - **Ethereum**
